@@ -1,3 +1,6 @@
+# Environment variable to pass values to the docker containers
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
