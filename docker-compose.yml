@@ -15,6 +15,8 @@ services:
       # Run `docker-compose run web config generate-secret-key`
       # to get the SENTRY_SECRET_KEY value.
       SENTRY_SECRET_KEY: ${SENTRY_SECRET_KEY} # from .env
+      GITHUB_APP_ID: ${GITHUB_APP_ID} # from .env
+      GITHUB_API_SECRET: ${GITHUB_API_SECRET} # from .env
       SENTRY_MEMCACHED_HOST: memcached
       SENTRY_REDIS_HOST: redis
       SENTRY_POSTGRES_HOST: postgres
