@@ -1,1 +1,3 @@
 # Add plugins here
+sentry-plugins
+git+https://github.com/getsentry/sentry-auth-github.git@master#egg=sentry-auth-github
