@@ -26,6 +26,16 @@ There may need to be modifications to the included `docker-compose.yml` file to 
 Note that as long as you have your database bind-mounted, you should
 be fine stopping and removing the containers without worry.
 
+## Updating the configuration
+
+To have changes to configuration files take effect, you need to re-build the docker images.
+
+```
+docker-compose down
+docker-compose build
+docker-compose up -d
+```
+
 ## Securing Sentry with SSL/TLS
 
 If you'd like to protect your Sentry install with SSL/TLS, there are
